@@ -18,15 +18,15 @@ API_ID = int(getenv("API_ID", 26493077))
 API_HASH = getenv("API_HASH", "6586f0276c7748e54684719bdd247d90")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
+OWNER_ID = int(getenv("OWNER_ID", 8417510906))
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ItsMeVishalBots")
 BOT_USERNAME = getenv("BOT_USERNAME", "vaishaliTune_bot")
-BOT_NAME = getenv("BOT_NAME", "≽ ^⎚ 𝘃𝗮𝗶𝘀𝗵𝗮𝗹𝗶 𝘅 𝗺𝘂𝘀𝗶𝗰 ⎚^ ≼")
-ASSUSERNAME = getenv("ASSUSERNAME", "≽ ^⎚ 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 ⎚^ ≼")
+BOT_NAME = getenv("BOT_NAME", "˹sʜʀᴇᴇ ꭙ мᴜsɪᴄ˼ ")
+ASSUSERNAME = getenv("ASSUSERNAME", "˹𝗠𝗜𝗦𝗦 𝗦𝗛𝗥𝗘𝗘˼")
 
 # ── Database & logging ────────────────────────────────────────────────────────
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002425220992))
+LOGGER_ID = int(getenv("LOGGER_ID",-1002389305159))
 
 # ── Limits (durations in min/sec; sizes in bytes) ──────────────────────────────
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
@@ -59,8 +59,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
 # ── Support links ──────────────────────────────────────────────────────────
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ItsMeVishalBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ItsMeVishalSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ytnaisha")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/shree_update")
 
 # ── Assistant auto-leave ───────────────────────────────────────────────────────
 AUTO_LEAVING_ASSISTANT = False
