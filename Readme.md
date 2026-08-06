@@ -129,7 +129,7 @@
   <summary><b>🐳 DOCKER DEPLOYMENT</b></summary>
 
   ```bash
-  git clone https://github.com/ItsMeVishal0/VishalMusic.git
+  git clone https://github.com/ankitchor/Kirish
   cd VishalMusic
   nano .env
   docker build -t vishal-music .
@@ -143,7 +143,7 @@
   ```bash
   sudo apt update && sudo apt upgrade -y
   sudo apt install git python3-pip ffmpeg -y
-  git clone https://github.com/ItsMeVishal0/VishalMusic.git
+  git clone https://github.com/ankitchor/Kirish
   cd VishalMusic
   pip3 install -r requirements.txt
   bash start
